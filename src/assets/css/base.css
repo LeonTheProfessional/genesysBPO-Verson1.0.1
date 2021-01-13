@@ -1,0 +1,384 @@
+.el-table th.gutter {
+    /*To fix the problem:*/
+    /*el-table header column width and content column width are not equals.*/
+    /*It happens when zoom dpi up or down.*/
+    /*Github issue:#9877*/
+    /*URL:https://github.com/ElemeFE/element/issues/9877*/
+    display: table-cell !important
+}
+
+#app {
+    font-family: "メイリオ", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    min-width: 1800px;
+    background: #F4F4F5;
+}
+
+.image-button:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+
+.el-header {
+    padding: 0;
+}
+
+.info-item-label {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.info-item-content {
+    font-size: small;
+}
+
+.detail-sub-title {
+    font-weight: bolder;
+}
+
+.info-item-sub-label {
+    font-size: small;
+    font-weight: bold;
+}
+
+.info-table {
+    text-align: left;
+    border: 1px #818181 solid;
+    border-collapse: collapse;
+}
+
+.info-table th {
+    text-align: left;
+    white-space: nowrap;
+    color: #333;
+    background-color: #eeeeee;
+    border: solid 1px #999999;
+    padding: 4px 3px;
+}
+
+.info-table td {
+    text-align: left;
+    padding: 2px 6px;
+    background-color: white;
+}
+
+.tr-with-col-span-td-in-info-table {
+    border-bottom: 1px #999999 solid
+}
+
+.el-pagination .el-select .el-input {
+    width: 120px;
+}
+
+.menu-title-row {
+    margin-top: 10px;
+}
+
+.menu-title {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/*.menu-sub-title-category-title {*/
+/*    font-weight: bolder;*/
+/*    font-size: 16px;*/
+/*    margin-left: 20px;*/
+/*    color: #606266*/
+/*}*/
+
+.el-divider .divider-text-left {
+    color: #909399;
+}
+
+.el-tree .el-tree-node__expand-icon.expanded {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.el-tree .el-icon-caret-right:before {
+    content: "\e6d9";
+    font-size: 14px;
+}
+
+.el-tree .el-tree-node__expand-icon.expanded.el-icon-caret-right:before {
+    content: "\e6d8";
+    font-size: 14px;
+}
+
+.search-condition-title {
+    font-weight: bold;
+}
+
+.el-input-group__append .input-append-button-mini.el-button {
+    border-color: transparent;
+    width: 45px;
+    height: 25px;
+    padding: 0;
+    background-color: inherit;
+    color: inherit;
+}
+
+.el-input-mini-with-append-button .el-input-group__append:hover,
+.el-input-mini-with-append-button .el-input-group__append:focus {
+    color: #409eff;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+}
+
+.el-input-mini-with-append-button .el-input-group__append:active {
+    color: #3a8ee6;
+    border-color: #3a8ee6;
+    border-left: 1px solid #3a8ee6;
+    outline: none;
+}
+
+.bpo-form .el-row {
+    margin-bottom: 10px;
+}
+
+.bpo-form .el-col span {
+    font-size: small;
+}
+
+.el-col span.info-text-span {
+    color: #909399;
+    font-size: x-small;
+}
+
+
+.condition-body {
+    border: 1px solid #909399;
+    padding: 10px 20px 0;
+    background: white;
+}
+
+.condition-body .el-row {
+    margin-bottom: 5px;
+}
+
+.condition-body .el-col span {
+    font-size: 14px;
+}
+
+.condition-body .el-radio-group span {
+    font-size: xx-small;
+}
+
+/*Revolution*/
+.el-table--border th, .el-table thead.is-group th {
+    background: #fafafa;
+    color: #4c6c55;
+    height: 35px;
+    padding: 0;
+}
+
+.el-table--border td {
+    font-size: 14px;
+    color: #333333;
+}
+
+.condition-body .el-checkbox-group {
+    color: #333333;
+}
+
+.condition-body .el-checkbox {
+    color: #333333;
+}
+
+.condition-body {
+    color: #333333;
+    box-shadow: -5px 5px 5px #4c6c55;
+}
+
+div {
+    font-family: "メイリオ", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.condition-body input::placeholder {
+    font-family: "メイリオ", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+input {
+    font-family: "メイリオ", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.el-button {
+    font-family: "メイリオ", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+input.el-input__inner {
+    color: #333333;
+}
+
+.el-main {
+    padding: 0 10px 50px 10px;
+    background: #F4F4F5;
+}
+
+.bpo-footer.el-footer {
+    width: 100%;
+    bottom: 0;
+    padding: 0;
+    background: #F4F4F5;
+    line-height: 40px;
+    position: fixed;
+    z-index: 9;
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner, .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
+    font-weight: bold;
+}
+
+.el-radio {
+    color: #333333;
+}
+
+.the-tip-pad {
+    border: 1px solid #909399;
+    background: white;
+    padding: 10px 0
+}
+
+.red-star::before {
+    content: "*";
+    color: red;
+}
+
+.invisible-star::before {
+    content: "*";
+    color: inherit;
+    opacity: 0;
+}
+
+.condition-body .el-input--mini {
+    width: 200px;
+}
+
+.condition-body span {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.condition-body .el-select {
+    width: 200px;
+}
+
+.condition-body .el-switch__label.is-active {
+    color: #606266;
+}
+
+.condition-body .el-button {
+    width: 98px;
+    padding: 0;
+}
+
+.search-condition-button-tray {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-condition-button-tray .el-button:last-child {
+    margin-right: 10px;
+}
+
+.button-above-table-container {
+    padding: 10px 0;
+}
+
+.info-icon-button {
+    color: #4c6c55;
+}
+
+.info-icon-button:active, .info-icon-button:hover {
+    opacity: 0.8;
+    color: #4c6c55;
+}
+
+.operation-icon-tray {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.operation-icon-tray .el-button {
+    font-size: 25px;
+}
+
+.bpo-dialog-button-tray .el-button {
+    width: 90px;
+}
+
+.bpo-dialog .el-input {
+    width: 240px;
+}
+
+.bpo-dialog .el-row {
+    margin-bottom: 10px;
+}
+
+.tip-pad-title {
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.the-tip-pad {
+    border: 1px solid #DCDFE6;
+}
+
+.the-tip-pad .el-row {
+    margin-bottom: 10px;
+}
+
+.the-tip-pad .el-col span {
+    font-size: small;
+}
+
+.the-tip-pad .three-dots {
+    font-weight: bolder;
+}
+
+.the-tip-pad i {
+    font-size: 25px;
+    /*margin: 0 10px;*/
+}
+
+.table-with-inline-append .el-input {
+    width: 100%;
+}
+
+.search-condition-button-tray .search-button {
+    background-color: #4c6c55;
+    border-color: #4c6c55;
+}
+
+.search-condition-button-tray .search-button:hover {
+    opacity: 0.8;
+}
+
+.search-condition-button-tray .clear-button {
+    background-color: #8fbd20;
+    color: #4c6c55;
+    border-color: #8fbd20;
+}
+
+.search-condition-button-tray .clear-button:hover {
+    background-color: #8fbd20;
+    opacity: 0.8;
+    border-color: #8fbd20;
+}
+
+.el-pagination button, .el-pagination li {
+    background: none !important;
+}
+
+.el-dialog__header {
+    border-bottom: 3px solid rgba(76, 108, 85, 0.8);
+}

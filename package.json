@@ -1,0 +1,43 @@
+{
+  "name": "bpo-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.2",
+    "element-ui": "^2.14.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "lodash": "^4.17.20",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.2",
+    "vue-i18n": "^8.22.3",
+    "vue-lodash": "^2.1.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.6.0",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.10",
+    "@vue/cli-plugin-eslint": "^4.5.10",
+    "@vue/cli-plugin-router": "^4.5.10",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "^4.5.10",
+    "@vue/eslint-config-standard": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-lodash": "^7.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^7.4.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
